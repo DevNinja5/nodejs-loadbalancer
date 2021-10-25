@@ -45,3 +45,10 @@ sudo rm default
 ```bash
 systemctl restart nginx.service
 ```
+
+4. Run node apps
+```bash
+node server1.js
+node server2.js
+node server3.js
+```
