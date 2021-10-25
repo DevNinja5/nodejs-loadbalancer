@@ -2,7 +2,7 @@
 
 Implementing load balancer using nginx
 
-### Steps
+Steps
 
 1. Delete or move `defualt` file in `/etc/nginx/sites_enabled`
 
@@ -10,6 +10,7 @@ Implementing load balancer using nginx
 cd /etc/nginx/sites_enabled
 sudo rm default
 ```
+
 
 2. create a `.conf` file in `/etc/nginx/conf.d/`
    
