@@ -52,3 +52,31 @@ node server1.js
 node server2.js
 node server3.js
 ```
+---
+
+## Demo
+
+Hit url `localhost` and refresh page to see how it balancing in round robin fashion.
+
+![Screenshot1](images/img3.png)
+
+Refresh ![refresh](images/img4.png)
+
+![Screenshot1](images/img2.png)
+
+Refresh ![refresh](images/img4.png)
+
+![Screenshot1](images/img1.png)
+
+---
+
+**Reverse Proxy** 
+
+Hit `localhost/server[1-3]` and see how it takes you to the corresponding ports `5001 - 5003`
+
+![Screenshot1](images/img5.png)
+
+![Screenshot1](images/img6.png)
+
+![Screenshot1](images/img7.png)
+
